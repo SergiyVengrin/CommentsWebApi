@@ -22,7 +22,7 @@ namespace CommentsWebApi
         {
             //Dependency injection
             services.AddTransient<ICommentService, CommentService>();
-
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
